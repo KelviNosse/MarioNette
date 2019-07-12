@@ -20,7 +20,7 @@
 - Run the tests => `yarn tests` | `npm run tests`
 - Optional:
   - Make it your own project => `rm -rf .git/`
-  - On `jest-puppeteer.config.js` file you can change the `headless` mode by default is `false`.
+  - For debug purposes on `jest-puppeteer.config.js` file you can change the `headless` mode by default is `true`.
   - For more configuration you can check docs @ [jest-puppeteer](https://github.com/smooth-code/jest-puppeteer)
 
 ## Features
