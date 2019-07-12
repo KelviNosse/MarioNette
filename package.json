@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "tslint -p . && tsc --noEmit",
     "tests": "yarn lint && jest",
-    "ci": "yarn lint && yarn test --ci"
+    "ci": "yarn lint && yarn tests --ci"
   },
   "author": "KelviNosse",
   "license": "MIT",
