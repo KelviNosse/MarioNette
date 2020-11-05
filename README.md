@@ -16,8 +16,8 @@
 ## Getting Started
 
 - Clone the repo => `git clone`
-- Install dependencies => `yarn` | `npm i`
-- Run the tests => `yarn tests` | `npm run tests`
+- Install dependencies => `npm i`
+- Run the tests => `npm run tests`
 - Optional:
   - Make it your own project => `rm -rf .git/`
   - For debug purposes on `jest-puppeteer.config.js` file you can change the `headless` mode by default is `true`.
