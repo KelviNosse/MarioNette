@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "tslint -p . && tsc --noEmit",
-    "tests": "npm run lint && jest"
+    "tests": "npm run lint && jest",
+    "ci": "npm run lint && jest --runInBand --ci"
   },
   "author": "KelviNosse",
   "license": "MIT",
